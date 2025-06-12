@@ -3,12 +3,11 @@ PROMPT = """
 
 **Voice cloning** is a technique that synthesizes speech in a target speaker’s voice using a given text input and a reference audio of the target speaker.
 
-You are given four items, in the following order:
+You are given three items, in the following order:
 
-1. Text prompt (the sentence to be synthesized)  
-2. Target speaker reference audio  
-3. Synthesized audio A (from voice cloning model A)  
-4. Synthesized audio B (from voice cloning model B)
+1. Target speaker reference audio  
+2. Synthesized audio A (from voice cloning model A)  
+3. Synthesized audio B (from voice cloning model B)
 
 **Your task:**  
 Ignore background noise and text accuracy — focus only on speaker similarity. Decide which synthesized audio sounds more like the target speaker in terms of voice identity (e.g., timbre, pitch, tone)? (a) Synthesized audio A (b) Synthesized audio B.
