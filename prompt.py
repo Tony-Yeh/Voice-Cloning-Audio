@@ -3,7 +3,7 @@ PROMPT = """
 
 **Voice cloning** is a technique that synthesizes speech in a target speaker’s voice using a given text input and a reference audio of the target speaker.
 
-You are given three items, in the following order:
+You are given three audio clips, in the following order:
 
 1. Target speaker reference audio  
 2. Synthesized audio A (from voice cloning model A)  
